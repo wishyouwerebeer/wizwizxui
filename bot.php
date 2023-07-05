@@ -7,7 +7,7 @@ check();
 
 $robotState = $botState['botState']??"on";
  if($userInfo['step'] == "banned" && $from_id != $admin && $userInfo['isAdmin'] != true){
-     sendMessage("❌ | هی بهت گفتم آدم باش گوش نکردی ، الان مسدود شدی 😑😂");
+     sendMessage("❌ |کاربر گرامی، به دلیل تخطی از قوانین، اکانت شما مسدود شد");
      exit();
  }
 if ($joniedState== "kicked" || $joniedState== "left"){
